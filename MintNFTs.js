@@ -263,11 +263,11 @@ export const MintNFTs = ({ onClusterChange }) => {
     // Read more: https://docs.metaplex.com/programs/candy-machine/minting#minting-with-pre-validation
     const { nft } = await metaplex.candyMachines().mint({
       candyMachine,
-      collectionUpdateAuthority: candyMachine.authorityAddress,
+      collectionUpdateAuthority: process.env.NEXT_PUBLIC_COLLECTION_UPDATE_AUTHORITY,
 
       guards: {
-        nftPayment: {
-          mint: "BaVtMj8ko5MyZYACkWEMCowZgBshvyWCwjfwvH1P66nK"
+        NftPayment: {
+          mint: "FKUpejNjZcGTFbf2QjrafyLuE5mh1AU1nNho6V4q8ndf"
         }
       }
     });

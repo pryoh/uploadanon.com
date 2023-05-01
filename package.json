@@ -1,5 +1,5 @@
 {
-  "name": "mint-ui-example",
+  "name": "traders-anonymous",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "@metaplex-foundation/mpl-candy-machine": "^6.0.0-alpha.11",
     "@metaplex-foundation/umi": "^0.7.2",
     "@metaplex-foundation/umi-bundle-defaults": "^0.7.2",
+    "@solana/spl-token": "^0.3.7",
     "@solana/wallet-adapter-base": "^0.9.17",
     "@solana/wallet-adapter-react": "^0.15.19",
     "@solana/wallet-adapter-react-ui": "^0.9.17",
