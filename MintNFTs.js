@@ -264,7 +264,14 @@ export const MintNFTs = ({ onClusterChange }) => {
     const { nft } = await metaplex.candyMachines().mint({
       candyMachine,
       collectionUpdateAuthority: process.env.NEXT_PUBLIC_COLLECTION_UPDATE_AUTHORITY,
+
+      guards: {
+        nftPayment: {
+          mint: "BaVtMj8ko5MyZYACkWEMCowZgBshvyWCwjfwvH1P66nK",
+        },
+      },
     });
+    
 
     setNft(nft);
   };
