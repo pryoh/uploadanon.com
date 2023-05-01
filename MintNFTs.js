@@ -10,7 +10,7 @@ export const MintNFTs = ({ onClusterChange }) => {
 
   const [nft, setNft] = useState(null);
 
-  const [disableMint, setDisableMint] = useState(false); // disable mint button by default
+  const [disableMint, setDisableMint] = useState(false);
 
   const candyMachineAddress = new PublicKey(process.env.NEXT_PUBLIC_CANDY_MACHINE_ID);
 
@@ -263,15 +263,14 @@ export const MintNFTs = ({ onClusterChange }) => {
     // Read more: https://docs.metaplex.com/programs/candy-machine/minting#minting-with-pre-validation
     const { nft } = await metaplex.candyMachines().mint({
       candyMachine,
-      collectionUpdateAuthority: process.env.NEXT_PUBLIC_COLLECTION_UPDATE_AUTHORITY,
+      collectionUpdateAuthority: candyMachine.authorityAddress,
 
       guards: {
         nftPayment: {
-          mint: "BaVtMj8ko5MyZYACkWEMCowZgBshvyWCwjfwvH1P66nK",
-        },
-      },
+          mint: "BaVtMj8ko5MyZYACkWEMCowZgBshvyWCwjfwvH1P66nK"
+        }
+      }
     });
-    
 
     setNft(nft);
   };
@@ -285,6 +284,7 @@ export const MintNFTs = ({ onClusterChange }) => {
               upload
             </button>
           </div>
+          
         </div>
       </div>
   );
