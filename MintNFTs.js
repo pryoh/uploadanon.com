@@ -275,7 +275,7 @@ export const MintNFTs = ({ onClusterChange }) => {
         <div className={styles.container}>
           <h1 className={styles.title}>Traders Anonymous</h1>
             <button onClick={onClick}>
-              test your fate
+              upload
             </button>
           </div>
         </div>
