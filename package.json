@@ -11,8 +11,6 @@
   "dependencies": {
     "@metaplex-foundation/js": "0.17.12",
     "@metaplex-foundation/mpl-candy-machine": "^6.0.0-alpha.11",
-    "@metaplex-foundation/umi": "^0.7.5",
-    "@metaplex-foundation/umi-bundle-defaults": "^0.7.5",
     "@solana/spl-token": "^0.3.7",
     "@solana/wallet-adapter-base": "^0.9.17",
     "@solana/wallet-adapter-react": "^0.15.19",
