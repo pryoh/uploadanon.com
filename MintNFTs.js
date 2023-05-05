@@ -1,4 +1,3 @@
-import styles from "./styles/Home.module.css";
 import { useMetaplex } from "./useMetaplex";
 import { useState } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
@@ -277,15 +276,9 @@ export const MintNFTs = ({ onClusterChange }) => {
 
   return (
     <div>
-      <div>
-        <div className={styles.container}>
-          <h1 className={styles.title}>Traders Anonymous</h1>
-            <button onClick={onClick}>
-              upload
-            </button>
-          </div>
-          
-        </div>
-      </div>
+      <button onClick={onClick}>
+        Upload
+      </button>
+    </div>
   );
 };

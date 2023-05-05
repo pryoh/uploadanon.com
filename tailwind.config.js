@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*"
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Underwood: "'My Underwood', serif",
+      }
+    },
   },
   plugins: [],
 }
