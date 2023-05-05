@@ -90,11 +90,11 @@ export default function Home() {
                         <Image 
                           src={bgImage}
                           alt="collection picture"
-                          width={800}
-                          height={800}
+                          width={700}
+                          height={700}
                           style={{objectFit: "cover"}}
                         />
-                        <div className="absolute bottom-6 left-5 text-base sm:text-2xl sm:bottom-1 md:text-4xl lg:text-4xl xl:text-4xl">
+                        <div className="absolute bottom-4 left-3 sm:left-5 text-base sm:text-2xl sm:bottom-7 md:text-3xl lg:text-3xlxl xl:text-3xlxl">
                           <MintNFTs />
                         </div>
                         
@@ -103,7 +103,7 @@ export default function Home() {
                       
                       
                       
-                    <div className="text-center">
+                    <div className="text-center pt-4">
                       <p className="text-md pb-10">Your ticket is your key. Do you choose to sacrifice?</p>
                     </div>
 
