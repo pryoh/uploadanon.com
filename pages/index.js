@@ -30,7 +30,7 @@ import {
 import {
   IoStorefrontSharp
 } from 'react-icons/io5';
-import collection from '../public/collection.png';
+import bgImage from '../public/main.png';
 
 export default function Home() {
   const network = useState(WalletAdapterNetwork.Mainnet);
@@ -76,30 +76,39 @@ export default function Home() {
                     <nav className="py-5 mb-4 flex justify-between items-center">
                       <h1 className="text-xl font-bold">tA</h1>
                       <ul className="flex items-center text-xl">
-                        <li className="px-2"> <MintNFTs /> </li>
                         <li className="px-2"> <ButtonWrapper /> </li>
                       </ul>
                     </nav>
 
-                    <div className="text-center pt-10">
+                    <div className="text-center pt-6">
                       <h2 className="text-5xl py-2">Welcome to Traders Anonymous</h2>
                       <h3 className="text-2xl py-2">Upload day has arrived...</h3>
                     </div>
 
-                    <div className="relative mx-auto w-80 h-80">
-                      <Image 
-                        src={collection}
-                        alt="collection picture"
-                        layout="fill"
-                      />
+                    <div className="flex items-center justify-center">
+                      <div className="relative">
+                        <Image 
+                          src={bgImage}
+                          alt="collection picture"
+                          width={800}
+                          height={800}
+                          style={{objectFit: "cover"}}
+                        />
+                        <div className="absolute bottom-6 left-5 text-base sm:text-2xl sm:bottom-1 md:text-4xl lg:text-4xl xl:text-4xl">
+                          <MintNFTs />
+                        </div>
+                        
                     </div>
-
+                  </div>
+                      
+                      
+                      
                     <div className="text-center">
                       <p className="text-md pb-10">Your ticket is your key. Do you choose to sacrifice?</p>
                     </div>
 
                     <div className="text-4xl flex justify-center gap-16 pb-4">
-                      <a href="https://twitter.com/TradersAnonNFT" target="_blank" rel="noreferrer noopener" >
+                      <a href="https://twitter.com/TradersAnonNFT" target="_blank" rel="noreferrer noopener">
                         <AiOutlineTwitter/>
                       </a>
                       <a href="https://magiceden.io/marketplace/traders_anonymous_tickets" target="_blank" rel="noreferrer noopener">

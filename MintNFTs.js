@@ -260,13 +260,20 @@ export const MintNFTs = ({ onClusterChange }) => {
   const onClick = async () => {
     // Here the actual mint happens. Depending on the guards that you are using you have to run some pre validation beforehand 
     // Read more: https://docs.metaplex.com/programs/candy-machine/minting#minting-with-pre-validation
+
+      const guard = candyMachine.candyGuard.guards
+      const ownedNfts = await metaplex.nfts().findAllByOwner({ owner: metaplex.identity().publicKey });
+      const nftsInCollection = ownedNfts.filter(obj => {
+        return (obj.collection?.address.toBase58() === guard.nftPayment.requiredCollection.toBase58()) && (obj.collection?.verified === true);
+      });
+
     const { nft } = await metaplex.candyMachines().mint({
       candyMachine,
-      collectionUpdateAuthority: process.env.NEXT_PUBLIC_COLLECTION_UPDATE_AUTHORITY,
-
+      collectionUpdateAuthority: candyMachine.authorityAddress,
+      group: null,
       guards: {
-        NftPayment: {
-          mint: "FKUpejNjZcGTFbf2QjrafyLuE5mh1AU1nNho6V4q8ndf"
+        nftPayment: {
+          mint: new PublicKey(nftsInCollection[0].mintAddress),
         }
       }
     });
