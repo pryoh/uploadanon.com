@@ -61,7 +61,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-black px-10 font-Underwood text-white">
+      <main className="bg-black px-10 font-Underwood text-white min-h-screen">
          <ConnectionProvider
             endpoint={endpoint}
             config={{ commitment: "confirmed" }}
@@ -86,15 +86,19 @@ export default function Home() {
                       <h3 className="text-2xl py-2">Upload day has arrived...</h3>
                     </div>
 
-                    <div className="mx-auto">
-                      <Image src={collection} />
+                    <div className="relative mx-auto w-80 h-80">
+                      <Image 
+                        src={collection}
+                        alt="collection picture"
+                        layout="fill"
+                      />
                     </div>
 
                     <div className="text-center">
-                      <p className="text-md pb-6">Your ticket is your key. Do you choose to sacrifice?</p>
+                      <p className="text-md pb-10">Your ticket is your key. Do you choose to sacrifice?</p>
                     </div>
 
-                    <div className="text-4xl flex justify-center gap-16">
+                    <div className="text-4xl flex justify-center gap-16 pb-4">
                       <a href="https://twitter.com/TradersAnonNFT" target="_blank" rel="noreferrer noopener" >
                         <AiOutlineTwitter/>
                       </a>
