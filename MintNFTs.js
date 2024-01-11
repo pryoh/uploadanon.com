@@ -2,6 +2,7 @@ import { useMetaplex } from "./useMetaplex";
 import { useState } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { PublicKey } from "@solana/web3.js";
+import { nftBurnGuardManifest } from "@metaplex-foundation/mpl-candy-machine";
 
 export const MintNFTs = ({ onClusterChange }) => {
   const { metaplex } = useMetaplex();
@@ -260,11 +261,11 @@ export const MintNFTs = ({ onClusterChange }) => {
   const onClick = async () => {
     // Here the actual mint happens. Depending on the guards that you are using you have to run some pre validation beforehand 
     // Read more: https://docs.metaplex.com/programs/candy-machine/minting#minting-with-pre-validation
+    const guard = candyMachine.candyGuard.guards
 
-      const guard = candyMachine.candyGuard.guards
-      const ownedNfts = await metaplex.nfts().findAllByOwner({ owner: metaplex.identity().publicKey });
+    const ownedNfts = await metaplex.nfts().findAllByOwner({ owner: metaplex.identity().publicKey });
       const nftsInCollection = ownedNfts.filter(obj => {
-        return (obj.collection?.address.toBase58() === guard.nftPayment.requiredCollection.toBase58()) && (obj.collection?.verified === true);
+        return (obj.collection?.address.toBase58() === guard.nftGate.requiredCollection.toBase58()) && (obj.collection?.verified === true);
       });
 
     const { nft } = await metaplex.candyMachines().mint({
@@ -272,8 +273,8 @@ export const MintNFTs = ({ onClusterChange }) => {
       collectionUpdateAuthority: candyMachine.authorityAddress,
       group: null,
       guards: {
-        nftPayment: {
-          mint: new PublicKey(nftsInCollection[0].mintAddress),
+        nftGate: {
+          mint: new PublicKey(nftsInCollection[0].mintAddress)
         }
       }
     });

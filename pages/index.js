@@ -39,10 +39,10 @@ export default function Home() {
   const wallets = useMemo(
     () => [
       new PhantomWalletAdapter(),
-      new GlowWalletAdapter(),
-      new SlopeWalletAdapter(),
-      new SolflareWalletAdapter({ network }),
-      new TorusWalletAdapter(),
+      //new GlowWalletAdapter(),
+      //new SlopeWalletAdapter(),
+      //new SolflareWalletAdapter({ network }),
+      //new TorusWalletAdapter(),
     ],
     [network]
   );

@@ -1,0 +1,4 @@
+{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"rj-pc","pid":3508,"time":"2024-01-11T02:42:10.2663182Z","target":"sugar","line":123,"file":"src/main.rs"}
+{"v":0,"name":"sugar","msg":"Cache file 'cache.json' not found. Run `sugar upload` to create it or provide it with the --cache option.","level":50,"hostname":"rj-pc","pid":3508,"time":"2024-01-11T02:42:10.2693161Z","target":"sugar_cli::cache","line":157,"file":"src\\cache.rs"}
+}
+53:15.0708036Z","target":"sugar_cli::setup","line":53,"file":"src\\setup.rs"}
