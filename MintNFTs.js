@@ -2,7 +2,7 @@ import { useMetaplex } from "./useMetaplex";
 import { useState } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { PublicKey } from "@solana/web3.js";
-import { nftBurnGuardManifest } from "@metaplex-foundation/mpl-candy-machine";
+import Image from "next/image";
 
 export const MintNFTs = ({ onClusterChange }) => {
   const { metaplex } = useMetaplex();
@@ -10,7 +10,7 @@ export const MintNFTs = ({ onClusterChange }) => {
 
   const [nft, setNft] = useState(null);
 
-  const [disableMint, setDisableMint] = useState(false);
+  const [disableMint, setDisableMint] = useState(true);
 
   const candyMachineAddress = new PublicKey(process.env.NEXT_PUBLIC_CANDY_MACHINE_ID);
 
@@ -283,10 +283,8 @@ export const MintNFTs = ({ onClusterChange }) => {
   };
 
   return (
-    <div>
-      <button onClick={onClick}>
-        Upload
-      </button>
-    </div>
+    <button onClick={onClick} disabled={disableMint}>
+      button
+    </button>
   );
 };
