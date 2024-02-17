@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #549",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "549.png",
+  "external_url": "tradersanon.org",
+  "edition": 549,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Royal Purple"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Simple Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Alien Kraken"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "549.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #980",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "980.png",
+  "external_url": "tradersanon.org",
+  "edition": 980,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wine Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Strawberry Ape"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "980.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #370",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "370.png",
+  "external_url": "tradersanon.org",
+  "edition": 370,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bright White"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Pearl Arsenic"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "370.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

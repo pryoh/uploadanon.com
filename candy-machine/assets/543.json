@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #543",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "543.png",
+  "external_url": "tradersanon.org",
+  "edition": 543,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Charcoal Black"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Insomnia Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Yogie Snuffles"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "543.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

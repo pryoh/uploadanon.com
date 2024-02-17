@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #279",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "279.png",
+  "external_url": "tradersanon.org",
+  "edition": 279,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sky Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Karnage Symbiote"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "279.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

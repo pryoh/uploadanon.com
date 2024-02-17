@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #7",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "7.png",
+  "external_url": "tradersanon.org",
+  "edition": 7,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red Nebula"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Orange"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Black Wyvern"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "7.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

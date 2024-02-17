@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #69",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "69.png",
+  "external_url": "tradersanon.org",
+  "edition": 69,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red Nebula"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Hyperspace"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Insomnia Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Luke"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "69.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

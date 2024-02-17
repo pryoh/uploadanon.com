@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #393",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "393.png",
+  "external_url": "tradersanon.org",
+  "edition": 393,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bright White"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Hostage Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Ether Jahgoo"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "393.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

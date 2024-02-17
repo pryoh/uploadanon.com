@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #774",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "774.png",
+  "external_url": "tradersanon.org",
+  "edition": 774,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Benjamin Snuffles"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "774.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

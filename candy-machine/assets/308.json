@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #308",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "308.png",
+  "external_url": "tradersanon.org",
+  "edition": 308,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Navy Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tough Tucker"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "308.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

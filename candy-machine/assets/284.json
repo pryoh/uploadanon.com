@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #284",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "284.png",
+  "external_url": "tradersanon.org",
+  "edition": 284,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Owl Gobby"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "284.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

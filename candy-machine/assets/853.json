@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #853",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "853.png",
+  "external_url": "tradersanon.org",
+  "edition": 853,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pale Sunrise"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Hostage Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Agent K"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "853.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

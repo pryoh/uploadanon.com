@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #1099",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "1099.png",
+  "external_url": "tradersanon.org",
+  "edition": 1099,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pine Green"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Trance Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Octavius 24"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1099.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

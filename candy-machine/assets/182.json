@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #182",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "182.png",
+  "external_url": "tradersanon.org",
+  "edition": 182,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sky Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Simple Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Penguin Intestines"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "182.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

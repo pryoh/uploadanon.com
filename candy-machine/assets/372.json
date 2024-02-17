@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #372",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "372.png",
+  "external_url": "tradersanon.org",
+  "edition": 372,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pale Sunrise"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Hangry Hippo"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "372.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

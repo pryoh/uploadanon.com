@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #983",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "983.png",
+  "external_url": "tradersanon.org",
+  "edition": 983,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Trance Orange"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "VR Blood"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "983.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

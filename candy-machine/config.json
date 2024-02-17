@@ -1,0 +1,31 @@
+{
+  "tokenStandard": "nft",
+  "number": 1111,
+  "symbol": "TA",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "2NgtfXpNqemARtJn4xzZ3vc1Fj4Q6aE2NoRnunxJ7U7d",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "ruleSet": null,
+  "awsConfig": null,
+  "sdriveApiKey": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+      "nftPayment": {
+        "requiredCollection": "FKUpejNjZcGTFbf2QjrafyLuE5mh1AU1nNho6V4q8ndf",
+        "destination": "2NgtfXpNqemARtJn4xzZ3vc1Fj4Q6aE2NoRnunxJ7U7d"
+      }
+    }
+  },
+  "maxEditionSupply": null
+}

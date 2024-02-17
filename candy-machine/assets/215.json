@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #215",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "215.png",
+  "external_url": "tradersanon.org",
+  "edition": 215,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Washed Lavender"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Tremble Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Fiery Imp"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "215.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

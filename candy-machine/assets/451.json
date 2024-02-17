@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #451",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "451.png",
+  "external_url": "tradersanon.org",
+  "edition": 451,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pine Green"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Trance Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tube Milk"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "451.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

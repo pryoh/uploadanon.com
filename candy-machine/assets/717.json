@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #717",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "717.png",
+  "external_url": "tradersanon.org",
+  "edition": 717,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pine Green"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Tremble Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Torched Chaos"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "717.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

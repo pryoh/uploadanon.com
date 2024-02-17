@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #441",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "441.png",
+  "external_url": "tradersanon.org",
+  "edition": 441,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Water"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Red"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Randy Snugs"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "441.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #775",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "775.png",
+  "external_url": "tradersanon.org",
+  "edition": 775,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Timid Red"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Spiritual Toad"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "775.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

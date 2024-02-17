@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #142",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "142.png",
+  "external_url": "tradersanon.org",
+  "edition": 142,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red Nebula"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Starry"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Injured Orange"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Demon Slayer"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "142.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

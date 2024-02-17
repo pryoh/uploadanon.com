@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #151",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "151.png",
+  "external_url": "tradersanon.org",
+  "edition": 151,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Water"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Hyperspace"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Insomnia Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Charred Specimen"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "151.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

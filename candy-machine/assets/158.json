@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #158",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "158.png",
+  "external_url": "tradersanon.org",
+  "edition": 158,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bright White"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Starry"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Rainbow Wyvern"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "158.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

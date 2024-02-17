@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #306",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "306.png",
+  "external_url": "tradersanon.org",
+  "edition": 306,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Fresh Mint"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Harpoon Harry"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "306.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

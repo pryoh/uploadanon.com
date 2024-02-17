@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #568",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "568.png",
+  "external_url": "tradersanon.org",
+  "edition": 568,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sky Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Timid Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Strawberry Ape"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "568.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MyUnderwood";
+  src: url("./MyUnderwood.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fade-edges {
+  -webkit-mask-image: radial-gradient(circle, white 50%, transparent 100%);
+  mask-image: radial-gradient(circle, white 50%, transparent 100%);
+}

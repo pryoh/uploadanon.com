@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #760",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "760.png",
+  "external_url": "tradersanon.org",
+  "edition": 760,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Fresh Mint"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Anxious Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Blue Baghead"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "760.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

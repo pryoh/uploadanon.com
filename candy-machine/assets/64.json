@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #64",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "64.png",
+  "external_url": "tradersanon.org",
+  "edition": 64,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Washed Lavender"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Hyperspace"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Anxious Red"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Jason"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "64.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

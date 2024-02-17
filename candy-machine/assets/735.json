@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #735",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "735.png",
+  "external_url": "tradersanon.org",
+  "edition": 735,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sky Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Hostage Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Mango Tigris"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "735.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #837",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "837.png",
+  "external_url": "tradersanon.org",
+  "edition": 837,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pine Green"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Lion King"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "837.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

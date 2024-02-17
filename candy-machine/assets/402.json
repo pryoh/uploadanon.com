@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #402",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "402.png",
+  "external_url": "tradersanon.org",
+  "edition": 402,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Royal Purple"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Simple Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Skizzy Skunk"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "402.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #449",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "449.png",
+  "external_url": "tradersanon.org",
+  "edition": 449,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bright White"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Orange"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tyrant Lizard"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "449.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

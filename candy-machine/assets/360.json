@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #360",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "360.png",
+  "external_url": "tradersanon.org",
+  "edition": 360,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Baggy Eddy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "360.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

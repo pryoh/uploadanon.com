@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #36",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "36.png",
+  "external_url": "tradersanon.org",
+  "edition": 36,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Fresh Mint"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Sparkle"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Timid Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "John"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "36.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

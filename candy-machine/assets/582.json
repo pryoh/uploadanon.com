@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #582",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "582.png",
+  "external_url": "tradersanon.org",
+  "edition": 582,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bright White"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Tremble Orange"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tyrant Lizard"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "582.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

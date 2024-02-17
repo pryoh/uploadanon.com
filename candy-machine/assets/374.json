@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #374",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "374.png",
+  "external_url": "tradersanon.org",
+  "edition": 374,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Washed Lavender"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "James Williamson"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "374.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

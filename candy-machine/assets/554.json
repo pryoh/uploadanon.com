@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #554",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "554.png",
+  "external_url": "tradersanon.org",
+  "edition": 554,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Navy Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Timid Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Harpoon Harry"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "554.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #135",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "135.png",
+  "external_url": "tradersanon.org",
+  "edition": 135,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Leather Brown"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Starry"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Demon Slayer"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "135.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

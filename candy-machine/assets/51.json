@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #51",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "51.png",
+  "external_url": "tradersanon.org",
+  "edition": 51,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Shimmer"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Simple Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Charred Specimen"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "51.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

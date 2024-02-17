@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #1020",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "1020.png",
+  "external_url": "tradersanon.org",
+  "edition": 1020,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Leather Brown"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Rue Bix"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1020.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

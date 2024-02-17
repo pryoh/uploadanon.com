@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #45",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "45.png",
+  "external_url": "tradersanon.org",
+  "edition": 45,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green Nebula"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Starry"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Injured Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Charred Specimen"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "45.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

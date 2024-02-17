@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #899",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "899.png",
+  "external_url": "tradersanon.org",
+  "edition": 899,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pale Sunrise"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Danny Dingo"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "899.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

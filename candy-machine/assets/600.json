@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #600",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "600.png",
+  "external_url": "tradersanon.org",
+  "edition": 600,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wine Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joyless Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Baggy Eddy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "600.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

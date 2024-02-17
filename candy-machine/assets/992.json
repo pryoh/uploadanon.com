@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #992",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "992.png",
+  "external_url": "tradersanon.org",
+  "edition": 992,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pine Green"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joyless Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Ether Jahgoo"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "992.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

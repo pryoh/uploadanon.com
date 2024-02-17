@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #225",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "225.png",
+  "external_url": "tradersanon.org",
+  "edition": 225,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Washed Lavender"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Scarecrow Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Agent P"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "225.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

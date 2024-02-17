@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #736",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "736.png",
+  "external_url": "tradersanon.org",
+  "edition": 736,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wine Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Orange"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Sandy Snugs"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "736.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

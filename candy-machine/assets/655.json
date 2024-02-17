@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #655",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "655.png",
+  "external_url": "tradersanon.org",
+  "edition": 655,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tyrant Toy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "655.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

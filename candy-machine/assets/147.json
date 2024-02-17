@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #147",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "147.png",
+  "external_url": "tradersanon.org",
+  "edition": 147,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Purple Nebula"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Starry"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Injured Red"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Smiley"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "147.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

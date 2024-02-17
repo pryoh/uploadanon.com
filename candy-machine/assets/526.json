@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #526",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "526.png",
+  "external_url": "tradersanon.org",
+  "edition": 526,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pale Sunrise"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Atomic Virus"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "526.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

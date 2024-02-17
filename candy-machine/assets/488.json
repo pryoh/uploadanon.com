@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #488",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "488.png",
+  "external_url": "tradersanon.org",
+  "edition": 488,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Timid Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Trigger Happy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "488.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #750",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "750.png",
+  "external_url": "tradersanon.org",
+  "edition": 750,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wine Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Simple Red"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Pudgy Panda"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "750.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

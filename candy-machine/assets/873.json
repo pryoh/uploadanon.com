@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #873",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "873.png",
+  "external_url": "tradersanon.org",
+  "edition": 873,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sky Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Snow Leapord"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "873.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #348",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "348.png",
+  "external_url": "tradersanon.org",
+  "edition": 348,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Navy Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Enlightened Toad"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "348.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

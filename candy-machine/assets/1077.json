@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #1077",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "1077.png",
+  "external_url": "tradersanon.org",
+  "edition": 1077,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wine Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joyless Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Rusty Kraken"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1077.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

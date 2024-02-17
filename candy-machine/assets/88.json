@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #88",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "88.png",
+  "external_url": "tradersanon.org",
+  "edition": 88,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wine Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Sparkle"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Soul Taker"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "88.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

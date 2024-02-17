@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #739",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "739.png",
+  "external_url": "tradersanon.org",
+  "edition": 739,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Navy Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Pudgy Panda"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "739.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

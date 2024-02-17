@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #852",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "852.png",
+  "external_url": "tradersanon.org",
+  "edition": 852,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Jared Vines"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "852.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

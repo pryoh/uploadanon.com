@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #896",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "896.png",
+  "external_url": "tradersanon.org",
+  "edition": 896,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pine Green"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Trance Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Pidge"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "896.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

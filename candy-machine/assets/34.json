@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #34",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "34.png",
+  "external_url": "tradersanon.org",
+  "edition": 34,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red Nebula"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Anxious Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Undead Warrior"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "34.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

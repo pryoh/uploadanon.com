@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #545",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "545.png",
+  "external_url": "tradersanon.org",
+  "edition": 545,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Royal Purple"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Trigger Happy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "545.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

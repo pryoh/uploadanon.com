@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #816",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "816.png",
+  "external_url": "tradersanon.org",
+  "edition": 816,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Leather Brown"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Injured Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Cheese Borg"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "816.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

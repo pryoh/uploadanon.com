@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #289",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "289.png",
+  "external_url": "tradersanon.org",
+  "edition": 289,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Charcoal Black"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Injured Red"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Jared Vines"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "289.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

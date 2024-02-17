@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #464",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "464.png",
+  "external_url": "tradersanon.org",
+  "edition": 464,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pale Sunrise"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Karnage Symbiote"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "464.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

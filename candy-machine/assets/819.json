@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #819",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "819.png",
+  "external_url": "tradersanon.org",
+  "edition": 819,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Mango Tigris"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "819.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

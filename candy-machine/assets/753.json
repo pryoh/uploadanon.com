@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #753",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "753.png",
+  "external_url": "tradersanon.org",
+  "edition": 753,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tyrant Lizard"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "753.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

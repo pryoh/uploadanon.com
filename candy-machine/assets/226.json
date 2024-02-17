@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #226",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "226.png",
+  "external_url": "tradersanon.org",
+  "edition": 226,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Injured Blue"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Fiery Imp"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "226.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

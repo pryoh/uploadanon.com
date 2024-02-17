@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #471",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "471.png",
+  "external_url": "tradersanon.org",
+  "edition": 471,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Simple Orange"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Hangry Hippo"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "471.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

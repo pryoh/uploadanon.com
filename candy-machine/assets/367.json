@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #367",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "367.png",
+  "external_url": "tradersanon.org",
+  "edition": 367,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pale Sunrise"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Insomnia Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Cloud Nine"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "367.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

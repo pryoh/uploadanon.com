@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #573",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "573.png",
+  "external_url": "tradersanon.org",
+  "edition": 573,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Washed Lavender"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tiny Trooper"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "573.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #75",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "75.png",
+  "external_url": "tradersanon.org",
+  "edition": 75,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Starry"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Fragile Cyan"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Blood Spartan"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "75.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

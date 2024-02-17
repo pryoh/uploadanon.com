@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #666",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "666.png",
+  "external_url": "tradersanon.org",
+  "edition": 666,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pine Green"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Insomnia Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "VR Juice"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "666.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

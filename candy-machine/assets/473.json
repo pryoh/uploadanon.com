@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #473",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "473.png",
+  "external_url": "tradersanon.org",
+  "edition": 473,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Trance Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Danny Dingo"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "473.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

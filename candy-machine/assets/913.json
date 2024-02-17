@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #913",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "913.png",
+  "external_url": "tradersanon.org",
+  "edition": 913,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light Red"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Joyless Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Alien Kraken"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "913.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

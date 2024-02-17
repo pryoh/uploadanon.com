@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #748",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "748.png",
+  "external_url": "tradersanon.org",
+  "edition": 748,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sky Blue"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Anxious Yellow"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Crystal Gazer"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "748.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

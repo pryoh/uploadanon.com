@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #19",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "19.png",
+  "external_url": "tradersanon.org",
+  "edition": 19,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Shimmer"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Timid Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Undead Warrior"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "19.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

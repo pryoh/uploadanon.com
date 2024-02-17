@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #982",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "982.png",
+  "external_url": "tradersanon.org",
+  "edition": 982,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Leather Brown"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Venom Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Tough Tucker"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "982.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

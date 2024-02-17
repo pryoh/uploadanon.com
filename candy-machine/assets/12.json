@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #12",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "12.png",
+  "external_url": "tradersanon.org",
+  "edition": 12,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Soft Beige"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Shimmer"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Alchemist Purple"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Charred Specimen"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "12.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

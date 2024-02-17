@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #1028",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "1028.png",
+  "external_url": "tradersanon.org",
+  "edition": 1028,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Void Pink"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Skizzy Skunk"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1028.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

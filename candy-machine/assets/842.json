@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #842",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "842.png",
+  "external_url": "tradersanon.org",
+  "edition": 842,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Washed Lavender"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Insomnia Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Shark Bully"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "842.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}

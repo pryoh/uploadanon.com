@@ -1,0 +1,42 @@
+{
+  "name": "Traders Anonymous #462",
+  "symbol": "TA",
+  "description": "Created by Traders Anonymous",
+  "seller_fee_basis_points": 500,
+  "image": "462.png",
+  "external_url": "tradersanon.org",
+  "edition": 462,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Leather Brown"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Null"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Injured Green"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Red Baghead"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "462.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "6aoj1Pbnnbwy1BvuR5oKB5uQEHezUD7CDeKeiSytNhuZ",
+        "share": 100
+      }
+    ]
+  }
+}
