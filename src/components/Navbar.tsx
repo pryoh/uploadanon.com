@@ -1,4 +1,5 @@
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+"use client";
+
 import React from "react";
 import { Link } from "react-router-dom"; // Assuming you're using react-router for navigation
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
@@ -6,12 +7,17 @@ import { WalletProvider, useWallet } from "@solana/wallet-adapter-react";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import { PhantomWalletAdapter } from "@solana/wallet-adapter-phantom";
 import "@solana/wallet-adapter-react-ui/styles.css";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const network = WalletAdapterNetwork.Mainnet;
   const endpoint = useMemo(() => process.env.NEXT_PUBLIC_RPC_URL, []);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   const wallets = useMemo(
     () => [new PhantomWalletAdapter({ network })],
@@ -34,23 +40,33 @@ const Navbar = () => {
             <div className="flex justify-between">
               <div className="flex space-x-7">
                 <div>
-                  {/* Website Logo */}
-                  <Link to="/" className="flex items-center py-4 px-2">
-                    <span className="font-semibold text-lg">uploadanon</span>
+                  <Link to="/" className="flex items-center py-4">
+                    <span className="font-semibold text-lg">tA</span>
                   </Link>
                 </div>
-                {/* Primary Navbar items */}
               </div>
-              {/* Secondary Navbar Items */}
-              <div className="hidden md:flex items-center space-x-3 ">
+              {/* Hide key icon on small screens and show on medium screens and above */}
+              <div className="pt-2">
                 <WalletMultiButtonDynamic />
               </div>
-              {/* Mobile menu button */}
+
+              {/* This seems to be a duplicate link/button for the key icon, you might want to remove or adjust it as well */}
+              <div className="hidden sm:block">
+                <Link
+                  to="https://www.tradersanonymous.net/"
+                  className="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300"
+                >
+                  &#128477;{" "}
+                  {/* If this is the key icon, consider removing or hiding it on small screens */}
+                </Link>
+              </div>
               <div className="md:hidden flex items-center">
-                <button className="outline-none mobile-menu-button">
+                <button
+                  className="outline-none mobile-menu-button"
+                  onClick={toggleMenu}
+                >
                   <svg
-                    className=" w-6 h-6 text-gray-500 hover:text-green-500 "
-                    x-show="!showMenu"
+                    className="w-6 h-6 text-gray-500 hover:text-green-500"
                     fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -64,39 +80,16 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          {/* Mobile menu */}
-          <div className="hidden mobile-menu">
+          <div className={`${isOpen ? "block" : "hidden"} mobile-menu`}>
             <ul className="">
+              {/* Adjust or remove this if it's not needed for your mobile menu */}
               <li>
                 <Link
                   to="/"
                   className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
                 >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services"
-                  className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-                >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/about"
-                  className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-                >
-                  Contact
+                  &#128477;{" "}
+                  {/* Consider adjusting this part for your mobile menu */}
                 </Link>
               </li>
             </ul>

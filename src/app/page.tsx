@@ -44,6 +44,9 @@ import {
   CandyMachine,
   CandyGuard,
 } from "@metaplex-foundation/mpl-candy-machine";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { IoStorefrontSharp } from "react-icons/io5";
+import { SiDiscord } from "react-icons/si";
 
 export default function Home() {
   const network = WalletAdapterNetwork.Mainnet;
@@ -293,6 +296,35 @@ export default function Home() {
                     <span>{mintMsg}</span>
                   </div>
                 )}
+                <div className="text-center">
+                  <p className="text-md pt-12 pb-6">
+                    Your ticket is your key...
+                  </p>
+                </div>
+
+                <div className="text-2xl lg:text-4xl flex justify-center gap-16 ">
+                  <a
+                    href="https://twitter.com/ta_worId"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <AiOutlineTwitter />
+                  </a>
+                  <a
+                    href="https://magiceden.io/marketplace/traders_anonymous_tickets"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <IoStorefrontSharp />
+                  </a>
+                  <a
+                    href="https://discord.gg/egcH4Gnn"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <SiDiscord />
+                  </a>
+                </div>
               </div>
             </div>
           </main>
