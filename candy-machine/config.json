@@ -1,5 +1,5 @@
 {
-  "tokenStandard": "nft",
+  "tokenStandard": "pnft",
   "number": 1111,
   "symbol": "TA",
   "sellerFeeBasisPoints": 500,
@@ -21,8 +21,8 @@
   "hiddenSettings": null,
   "guards": {
     "default": {
-      "nftPayment": {
-        "requiredCollection": "FKUpejNjZcGTFbf2QjrafyLuE5mh1AU1nNho6V4q8ndf",
+      "solPayment": {
+        "value": 1,
         "destination": "2NgtfXpNqemARtJn4xzZ3vc1Fj4Q6aE2NoRnunxJ7U7d"
       }
     }

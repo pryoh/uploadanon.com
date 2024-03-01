@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState, useCallback } from "react";
 import React from "react";
-import Navbar from "@/components/Navbar";
 
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import { WalletProvider, useWallet } from "@solana/wallet-adapter-react";
@@ -49,7 +49,13 @@ import { SiDiscord } from "react-icons/si";
 
 export default function Home() {
   const network = WalletAdapterNetwork.Mainnet;
-  const endpoint = useMemo(() => process.env.NEXT_PUBLIC_RPC_URL, []);
+  const endpoint = `${process.env.NEXT_PUBLIC_RPC_URL}`;
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   const wallets = useMemo(
     () => [new PhantomWalletAdapter({ network })],
@@ -63,13 +69,9 @@ export default function Home() {
   );
 
   // set up umi
-  // set up umi
-  let umi: Umi;
-  if (endpoint) {
-    umi = createUmi(endpoint).use(mplTokenMetadata()).use(mplCandyMachine());
-  } else {
-    throw new Error("Endpoint is undefined. Cannot initialize Umi.");
-  }
+  let umi: Umi = createUmi(endpoint)
+    .use(mplTokenMetadata())
+    .use(mplCandyMachine());
 
   // state
   const [loading, setLoading] = useState(false);
@@ -86,13 +88,16 @@ export default function Home() {
 
   // retrieve item counts to determine availability and
   // from the solPayment, display cost on the Mint button
-  const retrieveAvailability = useCallback(async () => {
+  const retrieveAvailability = async () => {
     const cmId = process.env.NEXT_PUBLIC_CANDY_MACHINE_ID;
     if (!cmId) {
       setMintMsg("No candy machine ID found. Add environment variable.");
       return;
     }
-    const candyMachine = await fetchCandyMachine(umi, publicKey(cmId));
+    const candyMachine: CandyMachine = await fetchCandyMachine(
+      umi,
+      publicKey(cmId)
+    );
     setCandyMachine(candyMachine);
 
     // Get counts
@@ -110,13 +115,14 @@ export default function Home() {
     if (candyGuard) {
       setDefaultCandyGuardSet(candyGuard);
     }
-    const defaultGuards = candyGuard?.guards;
-    const solPaymentGuard = defaultGuards?.solPayment;
+    const defaultGuards: DefaultGuardSet | undefined = candyGuard?.guards;
+    const solPaymentGuard: Option<SolPayment> | undefined =
+      defaultGuards?.solPayment;
 
     if (solPaymentGuard) {
-      const solPayment = unwrapOption(solPaymentGuard);
+      const solPayment: SolPayment | null = unwrapOption(solPaymentGuard);
       if (solPayment) {
-        const lamports = solPayment.lamports;
+        const lamports: SolAmount = solPayment.lamports;
         const solCost = Number(lamports.basisPoints) / 1000000000;
         setCostInSol(solCost);
       }
@@ -125,11 +131,11 @@ export default function Home() {
     if (remaining > 0) {
       setMintDisabled(false);
     }
-  }, [umi]); // Add any external dependencies used inside `retrieveAvailability` here
+  };
 
   useEffect(() => {
     retrieveAvailability();
-  }, [retrieveAvailability]); // Now `retrieveAvailability` is a dependency, but it's memoized with `useCallback`
+  }, [mintCreated]); // Empty dependency array means run only once on mount
 
   // Inner Mint component to handle showing the Mint button,
   // and mint messages
@@ -227,11 +233,20 @@ export default function Home() {
         <a
           target="_blank"
           rel="noreferrer"
-          href={`https://solscan.io/token/${mintCreated.toString()}${
+          href={`https://solscan.io/token/${base58PublicKey(mintCreated)}${
             network === "mainnet-beta" ? "?cluster=mainnet-beta" : ""
           }`}
         >
-          {/* Content */}
+          <Image
+            src="/nftHolder.png"
+            alt="Blank NFT"
+            width={300}
+            height={300}
+            priority
+          />
+          <p className="mintAddress">
+            <code>{base58PublicKey(mintCreated)}</code>
+          </p>
         </a>
       );
     }
@@ -254,7 +269,35 @@ export default function Home() {
           className="min-h-screen bg-black text-white"
           style={{ fontFamily: "MyUnderwood, sans-serif" }}
         >
-          <Navbar />
+          <nav
+            className="bg-black text-white shadow-lg"
+            style={{ fontFamily: "MyUnderwood, sans-serif" }}
+          >
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="flex justify-between">
+                <div className="flex space-x-7">
+                  <div>
+                    <Link href="/" className="flex items-center py-4">
+                      <span className="font-semibold text-lg">tA</span>
+                    </Link>
+                  </div>
+                </div>
+                {/* Hide key icon on small screens and show on medium screens and above */}
+                <div className="pt-2 text-center">
+                  <WalletMultiButtonDynamic />
+                </div>
+                <div>
+                  <Link
+                    href="https://www.tradersanonymous.net/"
+                    className="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300"
+                  >
+                    &#128477;{" "}
+                    {/* If this is the key icon, consider removing or hiding it on small screens */}
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </nav>
           <div className="container mx-auto px-4">
             <div className="bg-black shadow rounded-lg p-8">
               <h1 className="text-2xl font-bold text-white text-center">
