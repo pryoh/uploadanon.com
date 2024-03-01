@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Link } from "react-router-dom"; // Assuming you're using react-router for navigation
+import Link from "next/link"; // Assuming you're using react-router for navigation
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import { WalletProvider, useWallet } from "@solana/wallet-adapter-react";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="flex justify-between">
               <div className="flex space-x-7">
                 <div>
-                  <Link to="/" className="flex items-center py-4">
+                  <Link href="/" className="flex items-center py-4">
                     <span className="font-semibold text-lg">tA</span>
                   </Link>
                 </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
               {/* This seems to be a duplicate link/button for the key icon, you might want to remove or adjust it as well */}
               <div className="hidden sm:block">
                 <Link
-                  to="https://www.tradersanonymous.net/"
+                  href="https://www.tradersanonymous.net/"
                   className="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300"
                 >
                   &#128477;{" "}
@@ -85,7 +85,7 @@ const Navbar = () => {
               {/* Adjust or remove this if it's not needed for your mobile menu */}
               <li>
                 <Link
-                  to="/"
+                  href="/"
                   className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
                 >
                   &#128477;{" "}

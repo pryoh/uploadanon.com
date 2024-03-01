@@ -5,7 +5,6 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState, useCallback } from "react";
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
@@ -249,87 +248,83 @@ export default function Home() {
   }; // </Mint>
 
   return (
-    <Router>
-      <WalletProvider wallets={wallets} autoConnect>
-        <WalletModalProvider>
-          <main
-            className="min-h-screen bg-black text-white"
-            style={{ fontFamily: "MyUnderwood, sans-serif" }}
-          >
-            <Navbar />
-            <div className="container mx-auto px-4">
-              <div className="bg-black shadow rounded-lg p-8">
-                <h1 className="text-2xl font-bold text-white text-center">
-                  upload into the network...
-                </h1>
-                <p className="mt-4 text-white text-center">
-                  do you choose to sacrifice?
-                </p>
+    <WalletProvider wallets={wallets} autoConnect>
+      <WalletModalProvider>
+        <main
+          className="min-h-screen bg-black text-white"
+          style={{ fontFamily: "MyUnderwood, sans-serif" }}
+        >
+          <Navbar />
+          <div className="container mx-auto px-4">
+            <div className="bg-black shadow rounded-lg p-8">
+              <h1 className="text-2xl font-bold text-white text-center">
+                upload into the network...
+              </h1>
+              <p className="mt-4 text-white text-center">
+                do you choose to sacrifice?
+              </p>
+            </div>
+            <div className="grid place-items-center">
+              <div className="shadow-glow">
+                <Image
+                  src="/preview.gif"
+                  alt="Preview of NFTs"
+                  width={300}
+                  height={300}
+                  priority
+                />
               </div>
-              <div className="grid place-items-center">
-                <div className="shadow-glow">
-                  <Image
-                    src="/preview.gif"
-                    alt="Preview of NFTs"
-                    width={300}
-                    height={300}
-                    priority
-                  />
-                </div>
 
-                <div className="text-center py-4">
-                  <div>
-                    Minted: {countMinted} / {countTotal}
-                  </div>
-                  <div>Remaining: {countRemaining}</div>
+              <div className="text-center py-4">
+                <div>
+                  Minted: {countMinted} / {countTotal}
                 </div>
-                <Mint />
-                {mintMsg && (
-                  <div className="text-center">
-                    <button
-                      onClick={() => {
-                        setMintMsg(undefined);
-                      }}
-                    >
-                      &times;
-                    </button>
-                    <span>{mintMsg}</span>
-                  </div>
-                )}
+                <div>Remaining: {countRemaining}</div>
+              </div>
+              <Mint />
+              {mintMsg && (
                 <div className="text-center">
-                  <p className="text-md pt-12 pb-6">
-                    Your ticket is your key...
-                  </p>
+                  <button
+                    onClick={() => {
+                      setMintMsg(undefined);
+                    }}
+                  >
+                    &times;
+                  </button>
+                  <span>{mintMsg}</span>
                 </div>
+              )}
+              <div className="text-center">
+                <p className="text-md pt-12 pb-6">Your ticket is your key...</p>
+              </div>
 
-                <div className="text-2xl lg:text-4xl flex justify-center gap-16 ">
-                  <a
-                    href="https://twitter.com/ta_worId"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <AiOutlineTwitter />
-                  </a>
-                  <a
-                    href="https://magiceden.io/marketplace/traders_anonymous_tickets"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <IoStorefrontSharp />
-                  </a>
-                  <a
-                    href="https://discord.gg/egcH4Gnn"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <SiDiscord />
-                  </a>
-                </div>
+              <div className="text-2xl lg:text-4xl flex justify-center gap-16 ">
+                <a
+                  href="https://twitter.com/ta_worId"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <AiOutlineTwitter />
+                </a>
+                <a
+                  href="https://magiceden.io/marketplace/traders_anonymous_tickets"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <IoStorefrontSharp />
+                </a>
+                <a
+                  href="https://discord.gg/egcH4Gnn"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <SiDiscord />
+                </a>
               </div>
             </div>
-          </main>
-        </WalletModalProvider>
-      </WalletProvider>
-    </Router>
+          </div>
+        </main>
+      </WalletModalProvider>
+    </WalletProvider>
   );
 }
